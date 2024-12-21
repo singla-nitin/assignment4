@@ -1,5 +1,5 @@
 import pandas as pd
-data = pd.read_csv('/content/drive/MyDrive/Colab Notebooks/DATASETS/Hitters.csv')
+data = pd.read_csv('file path for dataset')
 data.isnull()
 data.describe()
 data.dropna(inplace=True)
